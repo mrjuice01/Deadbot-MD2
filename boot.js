@@ -165,7 +165,7 @@ async function startKUMUTHU() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let xeonfek = await KUMUTHU.sendContact(callerId, global.owner)
-    KUMUTHU.sendMessage(callerId, { text: `⚠️RED-DRAGON Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
+    KUMUTHU.sendMessage(callerId, { text: `⚠️BayMax Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner Mr Juice To Unblock You!`}, { quoted : xeonfek })
     await sleep(8000)
     await KUMUTHU.updateBlockStatus(callerId, "block")
     }
@@ -198,15 +198,15 @@ async function startKUMUTHU() {
        }
        let lolXeon = { url : ppgc }
        if (pea[0].announce == true) {
-        KMUTHU.send5ButImg(pea[0].id, `🪀 Group Settings Changed 🪀\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
+        KMUTHU.send5ButImg(pea[0].id, `☘️ Group Settings Changed ☘️\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
         } else if(pea[0].announce == false) {
-        KMUTHU.send5ButImg(pea[0].id, `🪀 Group Settings Changed 🪀\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
+        KMUTHU.send5ButImg(pea[0].id, `☘️ Group Settings Changed ☘️\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
         } else if (pea[0].restrict == true) {
-        KMUTHU.send5ButImg(pea[0].id, `🪀 Group Settings Changed 🪀\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
+        KMUTHU.send5ButImg(pea[0].id, `☘️ Group Settings Changed ☘️\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
         } else if (pea[0].restrict == false) {
-        KMUTHU.send5ButImg(pea[0].id, `🪀 Group Settings Changed 🪀\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
+        KMUTHU.send5ButImg(pea[0].id, `☘️ Group Settings Changed ☘️\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
         } else {
-        KMUTHU.send5ButImg(pea[0].id, `🪀 Group Settings Changed 🪀\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `Group Settings Change Message`, wm_fatih, [])
+        KMUTHU.send5ButImg(pea[0].id, `☘️ Group Settings Changed ☘️\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `Group Settings Change Message`, wm_fatih, [])
       }
     })
     
@@ -261,7 +261,7 @@ Time  =  ${xtime} `
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '🙏WELCOME🙏'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: '🤗WELCOME🤗'}, type: 1}
     ]
 let buttonMessage = {
     image: { url: 'https://i.ibb.co/0h3Sv26/20220805-080104.jpg'},
